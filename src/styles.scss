@@ -64,7 +64,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
+  background-image: linear-gradient(45deg, #21D4FD 0%, #030027 100%);
 }
 
 .displayTableCell {
@@ -87,8 +87,8 @@ h3 {
   border-radius: 10px;
   padding: 30px 40px 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04);
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
 }
 
 label {
@@ -142,7 +142,7 @@ input:-moz-placeholder {
   font-size: 16px;
   font-weight: 600;
   padding: 15px 0;
-  background: #f96ea8;
+  background: #030027;
   color: #ffffff;
   cursor: pointer;
   outline: none;
@@ -207,13 +207,13 @@ input:-moz-placeholder {
 
 .forgotPassword {
   text-align: center;
-  margin: -12px 0 15px 0;
+  margin: -20px 0 15px 0;
   float: left;
   width: 100%;
 }
 
 .forgotPassword span {
-  color: #4dd5fe;
+  color: #030027;
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
@@ -252,13 +252,13 @@ input:-moz-placeholder {
 
 .redirectToLogin .redirect {
   cursor: pointer;
-  color: #ffffff;
+  color: #030027;
   text-decoration: underline;
 }
 
 .redirectToLogin2 .redirect {
   cursor: pointer;
-  color: #4dd5fe;
+  color: #030027;
   text-decoration: underline;
 }
 
@@ -288,9 +288,9 @@ input:-moz-placeholder {
   }
 }
 
-.sidebar .nav-link {
+.nav-link {
   font-weight: 500;
-  color: #333;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .sidebar .nav-link .feather {
@@ -315,7 +315,7 @@ input:-moz-placeholder {
 .sidebar a:hover,
 a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
-  color: #e91e63;
+  color: #030027;
 }
 
 /* * Content */
@@ -358,7 +358,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .form-control:focus {
-  border-color: #00bcd4;
+  border-color: #030027;
   box-shadow: none;
 }
 
